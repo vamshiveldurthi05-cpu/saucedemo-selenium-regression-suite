@@ -5,7 +5,7 @@ using Page Object Model. This version fixes a missing-folder build path
 issue that caused "Cannot find class in classpath" errors in earlier
 versions of this project.
 
-## Coverage (16 tests)
+## Coverage (15 tests)
 
 - Login (4): valid login, invalid password, locked-out user, empty credentials
 - Inventory (6): product count, price sort (low-high, high-low), name sort
@@ -65,3 +65,5 @@ Locators are based on SauceDemo's known, stable public structure. If a test
 fails with "no such element", right-click the real element on the live page
 -> Inspect, and update the matching Page Object - this is normal test
 maintenance, not a sign of a broken project.
+
+Fix test count in README
