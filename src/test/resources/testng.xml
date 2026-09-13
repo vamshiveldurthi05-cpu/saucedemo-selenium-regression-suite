@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Regression Suite">
+    <test name="Full Regression">
+        <classes>
+            <class name="com.saucedemo.tests.LoginTests"/>
+            <class name="com.saucedemo.tests.InventoryTests"/>
+            <class name="com.saucedemo.tests.CartTests"/>
+            <class name="com.saucedemo.tests.CheckoutTests"/>
+        </classes>
+    </test>
+</suite>

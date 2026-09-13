@@ -1,0 +1,1 @@
+This folder exists so Eclipse's Maven build path entry for src/main/resources is valid (prevents the 'Build path entry is missing' warning).
